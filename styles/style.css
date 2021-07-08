@@ -1,0 +1,80 @@
+.text {
+  margin: 50px 0 0 50px;
+  width: 600px;
+}
+
+.italictest {
+  font-family: "gt haptik trial regular oblique";
+  font-style: italic;
+  font-size: 35px;
+}
+
+.justajoke {
+  width: 50px;
+  height: 50px;
+  background-image: url(./j.gif);
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  background-size: contain;
+}
+
+.p {
+  /* font-family: "TT Norms"; */
+  /* font-family: "Spectral"; */
+  /* font-family: "Suisse Intl"; */
+  /* font-family: "Pragmatica"; */
+  /* font-family: "Lucida Console"; */
+  /* font-family: "Irvin-Heading"; */
+  /* font-family: "Soyuz Grotesk"; */
+  /* font-family: "GT Haptik Trial"; */
+  /* font-family: "bipolar"; */
+  /* font-family: "Hatton"; */
+  /* font-family: "Panama Demo"; */
+  /* font-family: "CenturyOldst BT"; */
+  font-size: 35px;
+}
+
+/* нет разницы между thin и ultra light, даже если в самом шрифте есть, не знаю как это выхватывать. Если нет жирности, применяется предыдущая */
+/* очень странно себя ведёт heavy, потому что в акциндентном шрифте с сайта нью йоркера точно нет болда, это одно начертание, но поткуда-то появляется болд(впрочем, как и италик). В таких шрифтах ещё достаточно сложно понять к чему отнести к нормал или к чему-то другому, хотя фонтэксплорер пишет, что регулар */
+.weight {
+  font-weight: 100; /* Thin */
+  font-weight: 200; /* Ultra Light */
+  font-weight: 300; /* Light */
+  font-weight: 400; /* Normal */
+  font-weight: 500; /* Medium */
+  font-weight: 600; /* Semi Bold */
+  font-weight: 700; /* Bold */
+  font-weight: 800; /* Extra Bold */
+  font-weight: 900; /* Heavy */ /* + Ultra */
+}
+
+/* stretch ничего не меняет, 'condensed' и тд в названии шрифта */
+.stretch {
+  font-stretch: condensed;
+  font-stretch: expanded;
+  font-stretch: extra-condensed;
+  font-stretch: extra-expanded;
+  font-stretch: normal;
+  font-stretch: semi-condensed;
+  font-stretch: semi-expanded;
+  font-stretch: ultra-condensed;
+  font-stretch: ultra-expanded;
+}
+
+/* моношрифты тоже в названии, этот параметр делает из всех шрифтов одинаковый, видимо, системный */
+.variant {
+  /* font-family: monospace; */
+}
+
+/* oblique ничего не делает, применяется италик или же наоборот, потому что в шрифте, в котором нет италика, италик всё равно откуда-то возникает, возможно, это облик */
+/* есть странное начертание rotalic, которое не включается css и которое включается на италик и облик, при этом игнорируется сам италик у шрифта. Такая же ситуация с iranic, css на италик включает ираник */
+
+.style {
+  font-style: italic;
+  font-style: normal;
+  font-style: oblique;
+}
+
+/* rounded в названии */
+/* roman? */
