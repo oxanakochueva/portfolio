@@ -29,6 +29,11 @@ body {
       &:last-child {
         margin-right: 0;
       }
+
+      &.right {
+        position: absolute;
+        right: 5vw;
+      }
     }
   }
 

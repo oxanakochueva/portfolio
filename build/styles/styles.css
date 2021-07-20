@@ -29,6 +29,10 @@ body .header a {
 body .header a:last-child {
   margin-right: 0;
 }
+body .header a.right {
+  position: absolute;
+  right: 5vw;
+}
 body .ps {
   font-size: 12px;
   opacity: 0.5;
